@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">VeltrixDB mark</title>
+  <desc id="desc">A geometric teal V formed between stacked graphite data blocks.</desc>
+  <rect width="256" height="256" rx="48" fill="#f5f7f8"/>
+  <path d="M35 45h61l32 101 32-101h61l-69 174H104z" fill="#252b33"/>
+  <path d="M73 45h23l32 101 32-101h23l-55 147z" fill="#14b8a6"/>
+  <g fill="#39414b" stroke="#65717d" stroke-width="2">
+    <rect x="23" y="25" width="65" height="27" rx="7"/>
+    <rect x="29" y="64" width="65" height="27" rx="7"/>
+    <rect x="168" y="25" width="65" height="27" rx="7"/>
+    <rect x="162" y="64" width="65" height="27" rx="7"/>
+  </g>
+  <g fill="#2dd4bf">
+    <circle cx="40" cy="38.5" r="3.5"/><circle cx="46" cy="77.5" r="3.5"/>
+    <circle cx="216" cy="38.5" r="3.5"/><circle cx="210" cy="77.5" r="3.5"/>
+  </g>
+</svg>

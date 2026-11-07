@@ -1,0 +1,21 @@
+[package]
+name = "veltrix-client"
+description = "Async client library and CLI for VeltrixDB"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "veltrix-cli"
+path = "src/main.rs"
+
+[dependencies]
+bytes.workspace = true
+clap.workspace = true
+tokio.workspace = true
+veltrix-protocol = { path = "../protocol" }
+
+[lints]
+workspace = true
+

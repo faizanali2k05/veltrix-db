@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+  <title id="title">VeltrixDB</title>
+  <desc id="desc">A geometric teal V assembled from stacked graphite data blocks beside the VeltrixDB wordmark.</desc>
+  <defs>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#0f9f95"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#111827" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <g transform="translate(28 22)" filter="url(#shadow)">
+    <path d="M16 22h54l31 94 31-94h54l-63 164H79z" fill="#252b33"/>
+    <path d="M49 22h21l31 94 31-94h21l-52 142z" fill="url(#teal)"/>
+    <g fill="#39414b" stroke="#65717d" stroke-width="2">
+      <rect x="4" y="8" width="58" height="24" rx="6"/>
+      <rect x="10" y="42" width="58" height="24" rx="6"/>
+      <rect x="140" y="8" width="58" height="24" rx="6"/>
+      <rect x="134" y="42" width="58" height="24" rx="6"/>
+    </g>
+    <g fill="#2dd4bf">
+      <circle cx="19" cy="20" r="3"/><circle cx="25" cy="54" r="3"/>
+      <circle cx="183" cy="20" r="3"/><circle cx="177" cy="54" r="3"/>
+    </g>
+  </g>
+  <g transform="translate(258 61)">
+    <text x="0" y="78" fill="#252b33" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="76" font-weight="750" letter-spacing="-3">Veltrix</text>
+    <text x="252" y="78" fill="#0f9f95" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="76" font-weight="750" letter-spacing="-3">DB</text>
+    <text x="4" y="118" fill="#65717d" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="18" letter-spacing="4">IN-MEMORY • RESP2 • RUST</text>
+  </g>
+</svg>

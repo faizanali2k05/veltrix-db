@@ -1,0 +1,7 @@
+/target
+*.rdb
+*.aof
+*.snapshot
+.*.snapshot.*.tmp
+.DS_Store
+

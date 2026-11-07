@@ -1,0 +1,16 @@
+[package]
+name = "veltrix-benchmarks"
+description = "Wire-level benchmark runner for VeltrixDB and Redis"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+clap.workspace = true
+tokio.workspace = true
+veltrix-client = { path = "../client" }
+
+[lints]
+workspace = true
+

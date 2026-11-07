@@ -1,0 +1,22 @@
+[package]
+name = "veltrix-server"
+description = "Async TCP database server for VeltrixDB"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+bytes.workspace = true
+clap.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+veltrix-engine = { path = "../engine" }
+veltrix-protocol = { path = "../protocol" }
+
+[dev-dependencies]
+veltrix-client = { path = "../client" }
+
+[lints]
+workspace = true
+

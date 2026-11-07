@@ -1,0 +1,15 @@
+[package]
+name = "veltrix-protocol"
+description = "Bounded incremental RESP2 codec for VeltrixDB"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+bytes.workspace = true
+thiserror.workspace = true
+
+[lints]
+workspace = true
+
